@@ -1,0 +1,10 @@
+{
+  "name": "@vueclid/devcontainer",
+  "build": {
+    "dockerfile": "Dockerfile",
+    // Update 'VARIANT' to pick a Bun version.
+    "args": {
+      "VARIANT": "latest"
+    }
+  }
+}
